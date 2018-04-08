@@ -1,0 +1,8 @@
+r : read only mode. Cursor at the beginning of the file.
+r+ : read and write. Cursor at the beginning of the file.
+
+w : write only mode
+w+ : Write + read. Creates file for reading and writing if file does not exist. If file exists, overwrites the existing file.
+
+a: append only mode. Cursor at the end of the file.
+a+: append + read mode. Cursor at the end of the file.
